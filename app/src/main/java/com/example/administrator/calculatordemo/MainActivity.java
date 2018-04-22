@@ -108,6 +108,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     et.setText(str.substring(0,str.length()-1));
                 }
                 break;
+
             case R.id.btn_clear:
                 clear_flag = false;
                 str = "";
